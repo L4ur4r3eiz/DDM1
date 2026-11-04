@@ -3,28 +3,51 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
     padding: 25,
-    backgroundColor: '#f5f5f5',
+    justifyContent: 'center',
+    backgroundColor: '#F8F9FA',
   },
   titulo: {
-    fontSize: 28,
-    fontWeight: 'bold',
-    marginBottom: 10,
-    color: '#333',
+    fontSize: 26,
+    fontWeight: '700',
+    marginBottom: 5,
+    color: '#1E293B',
     textAlign: 'center',
   },
   subtitulo: {
-    fontSize: 16,
-    color: '#666',
-    marginBottom: 30,
+    fontSize: 14,
+    color: '#64748B',
+    marginBottom: 25,
     textAlign: 'center',
   },
-  botao: {
-    width: '100%',
-    borderRadius: 8,
+  card: {
+    backgroundColor: '#FFFFFF',
+    padding: 20,
+    borderRadius: 12,
+    marginBottom: 20,
+    borderWidth: 1,
+    borderColor: '#E2E8F0',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.03,
+    shadowRadius: 4,
+  },
+  cardTitulo: {
+    fontSize: 16,
+    fontWeight: '600',
+    marginBottom: 10,
+    color: '#1E293B',
+  },
+  cardTexto: {
+    fontSize: 14,
+    color: '#64748B',
+    marginBottom: 6,
+  },
+  espacoBotao: {
+    marginBottom: 12,
+    borderRadius: 10,
     overflow: 'hidden',
+    
   },
 });
 
